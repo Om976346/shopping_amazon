@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800;900&display=swap');
+
+
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'Nunito',sans-serif;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+/** navbar **/
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url(/Images/amazon_logo.png);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+
+.add-first {
+    color: #cccccc;
+    font-size: 0.75rem;
+    font-weight: 100;
+}
+
+.nav-second {
+    font-size: 15px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    margin-left: 25px;
+    width: 600px;
+    height: 40px;
+    padding: 10px 0px 10px 0px;
+    border-radius: 30px;
+}
+
+.nav-search:hover {
+    border: 2px solid #febd68;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    height: 40px;
+    width: 70px;
+    padding: 0 0 0 10px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: 2px solid #febd68;
+    outline: none;
+}
+
+.search-input {
+    margin-left: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+}
+
+.search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 60px;
+    height: 40px;
+    background-color: #febd68;
+    color: white;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.nav-signin .signatag {
+    text-decoration: none;
+    color: #febd68;
+}
+.nav-signin .signatag :hover{
+    
+    text-decoration: underline;
+}
+span {
+    font-size: 0.75rem;
+}
+
+.nav-cart {
+    font-size: 0.7rem;
+}
+
+.nav-cart i {
+    font-size: 1.6rem;
+}
+
+/** bottom panel **/
+.bottom-panel {
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-options {
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-options p {
+    display: inline;
+    margin-left: 10px;
+}
+
+/** hero sectrion **/
+.hero-section {
+    background-image: url('/Images/hero_image.jpg');
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg {
+    height: 40px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 90%;
+    margin-bottom: 25px;
+    border-radius: 30px;
+}
+
+.hero-msg a {
+    text-decoration: none;
+    color: #007185;
+}
+
+/** shop section **/
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    padding-bottom: 20px;
+}
+
+.box {
+    border-radius: 10px;
+    height: 410px;
+    width: 23%;
+    background-color: white;
+    padding: 15px 0px 15px;
+    margin-top: 25px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.box-img {
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p {
+    width: 8rem;
+    height: 2rem;
+    border-radius: .5rem;
+    color: #333;
+    font-size: 1.5rem;
+    background-color: rgb(183, 212, 212);
+    text-align: center;
+    transition: all .5s ease-in-out;
+}
+.box-content p:hover{
+    background-color: rgb(96, 180, 180);
+    font-size: 1.7rem;
+    width: 8.2rem;
+    height: 2.2rem;
+}
+
+/** footer **/
+.foot-panel1 {
+    background-color: #37475a;
+    height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 30px;
+}
+
+ul li,
+li a {
+    display: block;
+    text-decoration: none;
+    list-style: none;
+}
+
+li a {
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.foot-panel3 {
+    border-top: 0.5px solid gray;
+    height: 70px;
+    background-color: #232F3E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-panel3 .logo {
+    background-image: url(/Images/amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.foot-panel4 {
+    background-color: #131A22;
+    color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pages a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.7rem;
+    margin-left: 5px;
+}
+
+.pages a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    margin-top: 5px;
+    font-size: 0.8rem;
+}
+.wrapper{
+    position: absolute;
+   
+    width: 100%;
+    height:100vh;
+    background-color: rgba(0, 0, 0, 0.7);;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: height 0.2s ease;
+  
+}
+
+/* #login .form-box{
+    background-color: #fff;
+    width: 100%;
+    margin: 2rem;
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
+    width: 30rem;
+    height: 35rem;
+} */
+ .form-box{
+    background-color: #fff;
+    width: 100%;
+    margin: 2rem;
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
+    width: 35rem;
+    height: 33rem;
+}
+.wrapper .iconclose{
+   
+    top: 2rem;
+    right: 3rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: orange;
+    color: #fff;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all ease-in-out 0.3s;
+}
+.wrapper .iconclose:hover{
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: darkorange;
+    color: #fff;
+    font-size: 2.5rem;
+}
+.wrapper .form-box h2{
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: darkorange;
+    padding: 1rem 0;
+    border-bottom: 0.2rem solid darkorange;
+}
+.box4 p{
+    
+    cursor: pointer;
+
+}
+.btn p{
+    width: 10rem;
+    height: 2rem;
+   border-color: darkorange;
+}
+.input-boxL{
+    position: relative;
+    width: 100%;
+    height: 3rem;
+    margin: 2rem 0;
+    
+}
+.input-boxL label{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 1.8rem;
+    font-weight: 600;
+    pointer-events: none;
+    color: #333;
+    padding-left:3rem;
+}
+.input-boxL input{
+    background-color: #cdcddb;
+   height: 2.5rem;
+   width:60%;
+   border-radius: 0.2rem;
+   border:0.1rem solid #03131b;
+   color: #000;
+   margin-left: 10rem;
+   font-weight: 600;
+   padding: 0 1.2rem 0 0.5rem;
+   outline: none;
+}
+.input-boxL .icon,.icon i{
+    font-size: 2rem;
+    color: darkorange;
+}
+.remainder-forgot{
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: 500;
+    margin: -1rem 0 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.remainder-forgot label input{
+    accent-color: orange;
+    color: #000;
+    margin-right: 0.8rem;
+}
+.remainder-forgot a{
+    text-decoration: none;
+    color: #155377;
+    font-size: 1.3rem;
+}
+.remainder-forgot a:hover{
+    text-decoration: underline;
+}
+.wrapper .btnLogin{
+    background-color: darkorange;
+    height: 2.5rem;
+    width: 8rem;
+    border: 0.11rem solid #f07740;
+    border-radius: 0.7rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff;
+    box-shadow: 2px 4px 8px rgb(5, 5, 5);
+    transition: all ease-in-out 0.5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper .btnLogin:hover{
+    background-color: rgb(235, 131, 13);
+    box-shadow: 0px 4px 10px rgb(41, 39, 39);
+    height: 2.4rem;
+    width: 7.5rem;
+    font-size: 1.4rem;
+}
+.login-register{
+    text-align: center;
+    margin-top: 1.8rem;
+}
+.login-register p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #333;
+}
+.login-register a{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: orange;
+    margin-left: 0.4rem;
+}
+.login-register a:hover{
+    font-size: 1.6rem;
+    text-decoration: 0.2rem solid underline;
+}
